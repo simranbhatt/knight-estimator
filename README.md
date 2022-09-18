@@ -16,14 +16,14 @@ https://nodejs.org/en/download/
    ```sh
    git clone https://github.com/simranbhatt/knight-estimator.git
    ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter the cloned directory
+3. Enter the cloned directory
    ```sh
    cd knight-estimator
    ```
+4. Install NPM packages
+   ```sh
+   npm install
+
 5. You're good to go! Run the application:
    ```sh
    node run.js
