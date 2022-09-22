@@ -1,3 +1,4 @@
+//visual representation of the 8x8 board
 export default function chessboard() {
     const rows = 8;
     const columns = 8;

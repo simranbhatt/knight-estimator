@@ -5,6 +5,7 @@ import { sleep } from './view.js';
 import { runProgram } from './view.js';
 import chessboard from './board.js';
 
+//find all the Knight's possible moves based on its current position
 export async function findPossibleMoves(currentPosition) {
     var possiblePositions = [];
     const row = parseInt(currentPosition.charAt(0));
@@ -45,6 +46,7 @@ export async function findPossibleMoves(currentPosition) {
     }
     return possiblePositions;
 }
+
 
 //list all possible moves based on the knight's current position
 export async function listPossibleMoves(currentPosition) {

@@ -10,6 +10,7 @@ We show you your Knight's possible moves from its current position.`);
     console.log();
 }
 
+//request user input and then compute relevant output
 export async function runProgram() {
     var currentPosition = await getPosition();
     listPossibleMoves(currentPosition);
