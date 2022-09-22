@@ -1,5 +1,3 @@
-import chessboard from './board.js';
-
 export async function positionIsValid(currentPosition) {
     if (currentPosition.length === 2) {
         const row = currentPosition.charAt(0);
